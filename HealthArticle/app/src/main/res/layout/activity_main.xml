@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to not die today!"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundedbutton"
+        android:text="FDA reviewing animal studies in wake of monkey deaths"
+        android:layout_marginTop="25dp"
+        android:onClick="monkeys"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundedbutton"
+        android:text="Ancient tools found in India tell a new story of when humans migrated from Africa"
+        android:layout_marginTop="25dp"
+        android:onClick="ancient"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundedbutton"
+        android:text="An EMT saved his life; he was reunited with that man at his EMT graduation"
+        android:layout_marginTop="25dp"
+        android:onClick="emt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="Prostate cancer now kills more in UK than breast cancer"
+        android:layout_marginTop="25dp"
+        android:onClick="cancer"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/roundedbutton"
+        android:text="Rare find: Mass grave may belong to Viking Great Army"
+        android:layout_marginTop="25dp"
+        android:onClick="rare"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Baby milk powder could have been infected with salmonella for 13 years"
+        android:layout_marginTop="25dp"
+        android:onClick="baby"/>
+
+</LinearLayout>
+</ScrollView>
