@@ -1,25 +1,22 @@
-# Challenge Overview/Objective
-The objective of this challenge is to analyse a packet capture (.pcap file) and discover all the hidden messages within it.
+#GU SWITCH Hackathon
 
-All of the messages are the names of famous films. To complete the challenge you must provide A) a list of all the film names, B) the network protocol in which you found them.
+The repo consists of all the solutions to the challanges that were given to us by Morgan Stanley, JP Morgan, and GU Switch itself.
 
-There are 7 film names to be found. 
+Challenges are mentioned below:
 
+**GU SWITCH Challenge**:
+1) Print fibonacci series less than hundred in 3 different languages (python, java, and js)
+2) Print multiples of three less than hundred in 3 different languages (python, js, and c++)
+3) Make a health related app
+4) Make a similar looking interface like redit
+5) Make a dot to dot converted of any image (solution is without numbers)
+6) Make a hackathon generator
 
-# Getting Started
-Clone this repository.
+**JP Morgan**
+1) Make a script that could encrypt or decrypt using different cyphers.
+2) Make a script that could bruteforce a password with 4 digits in hashes.
 
-`git clone http://github.com/iain-mc/pcapchallenge`
-
-Wireshark can be used to analyse .pcap files, so you may wish to install it.
-
-`sudo apt-get update`
-
-`sudo apt-get install wireshark`
-
-Once you have Wireshark installed, open it then click File -> Open and select capture1.pcap.
-
-# Hints
-Some are very easy to find, for example just looking for plaintext in the payload of common transport protocols.
-
-Some are a bit more tricky as the data can be split across many TCP packets, encoded in formats such as JPEG, etc..   
+**Morgan Stanley**
+1) Extract different movies (some in txt, some in jpegs) from .pcap file using wireshark.
+2) Make a SQL Injection vulnerable site to include a feature where one can switch on or off its vulnerability.
+3) Unobfuscate four different obfuscated scripts.
