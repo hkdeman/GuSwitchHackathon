@@ -1,4 +1,4 @@
-#GU SWITCH Hackathon
+# GU SWITCH Hackathon
 
 The repo consists of all the solutions to the challanges that were given to us by Morgan Stanley, JP Morgan, and GU Switch itself.
 
